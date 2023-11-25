@@ -1,14 +1,16 @@
 {
-  "name": "your-node-app",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "Your Node.js Application",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "test",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    // 添加任何你的项目依赖的库
+    "@types/node": "^18.0.6",
+    "node-fetch": "^3.2.6"
   }
 }

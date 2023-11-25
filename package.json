@@ -1,0 +1,14 @@
+{
+  "name": "your-node-app",
+  "version": "1.0.0",
+  "description": "Your Node.js Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "test",
+  "license": "MIT",
+  "dependencies": {
+    // 添加任何你的项目依赖的库
+  }
+}

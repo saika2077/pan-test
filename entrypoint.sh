@@ -7,5 +7,5 @@ echo "${download_url}" &&
 curl -LJO "$download_url" &&
 rm -rf alist &&
 tar -xzvf alist-linux-amd64.tar.gz && rm -f alist-linux-amd64.tar.gz && chmod +x alist &&
-./alist admin set PASSWORD &&
+# ./alist admin set PASSWORD &&
 ./alist server

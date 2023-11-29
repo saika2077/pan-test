@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "entrypoint.sh",
-      "use": "@now/shell"
+      "use": "@vercel/node"
     }
   ],
   "routes": [

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "entrypoint.sh",
+      "use": "@now/shell"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/entrypoint.sh" }
+  ]
+}

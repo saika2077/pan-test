@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    alist:
+        restart: always
+        volumes:
+            - '/alist:/alist/data'
+        ports:
+            - '5244:5244'
+        container_name: alist
+        image: 'saika2077/alist:latest'
